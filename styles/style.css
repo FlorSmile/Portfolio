@@ -9,6 +9,39 @@ body {
   font-weight: normal;
 }
 
+nav {
+  padding: 15px 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+
 h1,
 h2,
 h3,
@@ -129,5 +162,9 @@ img {
   .content-container {
     text-align: center;
     padding: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
