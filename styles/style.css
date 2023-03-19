@@ -68,6 +68,10 @@ p {
   line-height: 30px;
 }
 
+a {
+  color: var(--branding-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -96,6 +100,13 @@ p {
   line-height: 27px;
   border-radius: 4px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+  background: var(--secondary-color);
+  border-color: var(--branding-color);
+  color: var(--branding-color);
 }
 
 .btn-branding-second {
@@ -106,6 +117,14 @@ p {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding-second:hover {
+  background: white;
+  border-color: #272142;
+  color: #272142;
+  opacity: 0.5;
 }
 
 .project-description {
@@ -203,5 +222,9 @@ footer .link-social a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  footer .link-mail {
+    font-size: 18px;
   }
 }
