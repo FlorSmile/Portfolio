@@ -139,6 +139,43 @@ img {
   margin: 30px;
 }
 
+footer {
+  margin: 60px 0px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+
+footer .link-mail {
+  text-decoration: none;
+  color: #272142;
+  text-align: center;
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .link-mail:hover {
+  color: var(--branding-color);
+}
+
+footer .link-social a {
+  margin: 0px 10px;
+  padding: 10px 16px;
+  font-size: 24px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .link-social a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 991px) {
   h1,
   .content-container h1 {
