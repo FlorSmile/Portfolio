@@ -38,8 +38,13 @@ nav a:hover {
   color: var(--branding-color);
 }
 
-nav li.active a {
+nav .active {
   color: var(--branding-color);
+}
+
+nav a:focus {
+  color: var(--branding-color);
+  outline: none;
 }
 
 h1,
@@ -127,6 +132,17 @@ a {
   opacity: 0.5;
 }
 
+.btn-project {
+  border: 1px solid white;
+  transition: all 2ms ease-in-out;
+}
+
+.btn-project:hover {
+  border: 1px solid var(--branding-color);
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
 .project-description {
   padding: 60px 50px;
 }
@@ -152,6 +168,10 @@ img {
 
 .content p {
   font-size: 18px;
+}
+
+.content a {
+  text-decoration: none;
 }
 
 .content {
